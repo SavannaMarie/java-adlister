@@ -30,10 +30,10 @@
                 <h3 class="card-title">Please Log In</h3>
                 <form method="POST" action="login.jsp">
                     <label for="username">Username</label>
-                    <input id="username" name="username" type="text" autocomplete="false">
+                    <input id="username" name="username" type="text" autocomplete="off">
                     <br>
                     <label for="password">Password</label>
-                    <input id="password" name="password" type="password" autocomplete="false">
+                    <input id="password" name="password" type="password" autocomplete="off">
                     <br>
                     <input type="submit" class="btn-secondary">
                 </form>
