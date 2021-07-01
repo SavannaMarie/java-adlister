@@ -8,12 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <jsp:include page="partials/head.jsp" >
+    <jsp:include page="WEB-INF/partials/head.jsp" >
         <jsp:param name="title" value="Profile" />
     </jsp:include>
 </head>
 <body>
-    <jsp:include page="partials/navbar.jsp" />
+    <jsp:include page="WEB-INF/partials/navbar.jsp" />
     <div class="container d-flex h-100">
         <div class="card col-11">
             <div class="card-body">
@@ -51,6 +51,6 @@
             </div>
         </div>
     </div>
-    <jsp:include page="partials/footer.jsp" />
+    <jsp:include page="WEB-INF/partials/footer.jsp" />
 </body>
 </html>
