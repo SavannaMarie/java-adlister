@@ -5,15 +5,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/pickcolor")
+@WebServlet(name = "pickColor", urlPatterns = "/pickcolor")
 public class colorServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException{
-        request.getRequestDispatcher("/pickColor.jsp").forward(request,response);
+        request.getRequestDispatcher("/pickcolor.jsp").forward(request,response);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        String userColor = request.getParameter("colorpicker");
+        String backgroundColor = request.getParameter("colorpicker");
 
-        response.sendRedirect("/colorDisplay.jsp?colorpicker=" + userColor);
+        response.sendRedirect("/colordisplay?colorpicker=" + backgroundColor);
     }
 }

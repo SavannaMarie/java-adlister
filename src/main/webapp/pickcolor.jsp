@@ -17,7 +17,7 @@
         <h1>Please Pick a Color!</h1>
         <form action="/pickcolor" method="POST">
             <label for="color">Please input a color:</label>
-            <input name="colorPicker" type="text" id="color"><br>
+            <input name="colorpicker" type="text" id="color"><br>
             <input type="submit" value="Submit">
         </form>
     </div>

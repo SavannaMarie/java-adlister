@@ -14,7 +14,7 @@
 </head>
 <body>
     <style>
-        body {background-color: ${color}}
+        body {background-color: ${backgroundColor}}
     </style>
 </body>
 </html>
